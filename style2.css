@@ -1,0 +1,35 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background: url("download.png") #99f repeat-y fixed;
+}
+
+/* .mainheader{
+    align-items: center;
+} */
+
+.logo{
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.photo{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+
+.content{
+    font-family: 'Explora', cursive;
+    text-align: left;
+    padding-right: 50%;
+    padding-top: 7%;
+    padding-left: 15%;
+}
+
+#textcss{
+    text-indent: 3em;
+}

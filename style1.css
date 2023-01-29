@@ -1,0 +1,75 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: auto;
+    height: 100vh;
+}
+
+.mainheader{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo img{
+    padding-top: 60px;
+    width: 300px; 
+    padding-left: 20px;
+}
+
+.mainheader nav{
+    padding: 10px;
+    margin: 10px;
+    align-items: right;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainheader nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+/* .mainheader button{
+    padding: 10px 45px;
+    text-align: right;
+    font-size: 14px;
+    color: rgb(226, 33, 33);
+    border: none;
+    border-radius: 10px;
+} */
+
+/* .background-image{
+    background-image: url('./download.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+} */
+
+.background{
+    background: url("download.png") #100051 repeat-y fixed;
+}
+
+/* main{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .right-sec{
+    padding-right: 70px;
+}
+
+main .left-sec{
+    padding-left: 100px;
+} */
