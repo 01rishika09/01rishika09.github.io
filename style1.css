@@ -56,3 +56,24 @@ span{
 .background{
     background: url("download.png") #100051 repeat-y fixed;
 }
+
+
+
+
+.photo{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+
+.content{
+    font-family: 'Explora', cursive;
+    text-align: left;
+    padding-right: 50%;
+    padding-top: 7%;
+    padding-left: 15%;
+}
+
+#textcss{
+    text-indent: 3em;
+}
