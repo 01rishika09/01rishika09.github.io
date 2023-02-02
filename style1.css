@@ -31,10 +31,10 @@ span{
     color: #f9004d;
 }
 
-.mainheader .logo1 img{
-    padding-top: 60px;
-    padding-left: 200px;
-    width: 450px;
+.mainheader .finalLogo img{
+    padding-top: 40px;
+    padding-left: 230px;
+    width: 400px;
 }
 
 .mainheader nav{
