@@ -31,7 +31,7 @@ span{
     color: #f9004d;
 }
 
-.mainheader .finalLogo img{
+.mainheader .logo img{
     padding-top: 40px;
     padding-left: 230px;
     width: 400px;
@@ -53,40 +53,6 @@ span{
     text-transform: uppercase;
 }
 
-/* .mainheader button{
-    margin-left: 300px;
-    padding: 10px 30px;
-    text-align: right;
-    font-weight: 600;
-    font-size: 20px;
-    color: black;
-    border: none;
-    border-radius: 10px;
-} */
-
-/* .background-image{
-    background-image: url('./download.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-} */
-
 .background{
     background: url("download.png") #100051 repeat-y fixed;
 }
-
-/* main{
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-main .right-sec{
-    padding-right: 70px;
-}
-
-main .left-sec{
-    padding-left: 100px;
-} */
