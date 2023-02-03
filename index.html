@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="script.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> 
         <title>PORTFOLIO</title>
         <link rel="stylesheet" type="text/css" href="style1.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Explora&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     </head>
-    <body class="background">
-        <header>
-            <div class="mainheader">
-                <h2 class="portfolio">Portfo<span>lio</span></h2>
-                <nav>
-                    <a href="@">Home</a>
-                    <a href="@">Projects</a>
-                    <a href="@">About</a>
-                    <a href="@">Skills</a>
-                    <a href="@">Contact</a>
-                </nav>
-            </div>
-        </header>
+    <body class="background" onload="importfile()">
+        <div id="header"></div>
+        </div>
+        <div class="container">
+             <div class="row">
+                <div class="column1">
+                    <div class="txt"><h2>Hello! I'm <span>Rishika Kothari</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae ea expedita ratione, consequuntur, aspernatur inventore nostrum, reprehenderit perspiciatis magni voluptas repellat eum placeat laborum. Cupiditate quis veniam enim aspernatur.</p></div>
+                </div>
+                <div class="column2">
+                    <div class="img">
+                        <img src="myphoto.jpg" alt="My Photo" class="center">
+                    </div>
+                </div>
+             </div>
+        </div>
     </body>
 </html>

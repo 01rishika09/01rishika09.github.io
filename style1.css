@@ -13,6 +13,7 @@ header{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    width: 100vw;
 }
 
 .portfolio{
@@ -21,7 +22,7 @@ header{
     cursor: default;
 }
 
-span{
+.portfolio span{
     color: #f9004d;
 }
 
@@ -38,10 +39,11 @@ span{
     padding: 10px;
     font-weight: bold;
     text-transform: uppercase;
+    font-variant: small-caps;
 }
 
-a::first-letter{
-    font-size: 150%;
+a::first-letter {
+    font-size: 1.5rem;
 }
 
 .background{
@@ -55,20 +57,68 @@ a:hover{
 a:active{
     color: blue;
 }
+
+.container {
+    width: 90vw;
+    margin: auto;
+    margin-top: 1vh;
+}
+
+.container .row {
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: space-between;
+}
+
+.container .row .column1,.container .row .column2 {
+    max-width: 45%;
+    margin: auto;
+    flex: 0 0 45%; /* flex grow , flex shrink , flex basis */
+}
+
+.container .row .column2 .img,.container .row .column1 .txt{
+    max-width: 95%;
+    margin: auto;
+}
+
+.container .row .column1 .txt{
+    padding: 5% 15%; 
+    font-size: 1.2rem;
+}
+
+.container .row .column2 .img img{
+    max-width: 70%;
+    box-shadow: 0 0 8px black;
+    margin: auto;
+    display: block;
+}
+
+a::first-letter{
+    font-size: 50px;
+}
+
+/* .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+} */
 /* a:hover{
     cursor: pointer;
     background-color: rgb(196, 44, 77);
     border-radius: 10px;
 } */
 
-  body {
+/* ABOUT */
+
+/* body {
     height: 100vh;
     margin: 0;
     display: grid;
     gap: 20px;
     place-content: center;
-  }
-  h3 {
+} */
+  /* h3 {
     font-family: system-ui, sans-serif;
     font-size: 3rem;
     margin:0;
@@ -76,7 +126,7 @@ a:active{
     padding: 0 .07em;
   }
 
-/* ABOUT */
+
 
 .content{
     font-family: 'Explora', cursive;
@@ -84,8 +134,4 @@ a:active{
     padding-right: 50%;
     padding-top: 7%;
     padding-left: 15%;
-}
-
-#textcss{
-    text-indent: 3em;
-}
+} */
