@@ -69,8 +69,8 @@ a:active{
     flex: 0 0 50%;
     justify-content: space-between;
 }
-
-.container .row .column1,.container .row .column2 {
+ 
+.container .row .column1,.container .row .column2,.container .row .card1,.container .row .card2{
     max-width: 45%;
     margin: auto;
     flex: 0 0 45%; /* flex grow , flex shrink , flex basis */
@@ -109,6 +109,9 @@ h1{
 
 .about1 span{
     border-bottom: 3px #f9004d solid;
+}
+.container .row .card1, .container .row .card2{
+    padding: 5%,0%;
 }
 
 /* .center{
