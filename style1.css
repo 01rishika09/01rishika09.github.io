@@ -114,6 +114,10 @@ h1{
     padding: 5%,0%;
 }
 
+.form .mb-3 {
+    padding: 2%;
+}
+
 /* .center{
     display: block;
     margin-left: auto;
