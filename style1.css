@@ -81,12 +81,12 @@ a:active{
     margin: auto;
 }
 
-.container .row .column1 .txt{
+.container .row .column2 .txt{
     padding: 5% 15%; 
     font-size: 1.2rem;
 }
 
-.container .row .column2 .img img{
+.container .row .column1 .img img{
     max-width: 70%;
     box-shadow: 0 0 8px black;
     margin: auto;
