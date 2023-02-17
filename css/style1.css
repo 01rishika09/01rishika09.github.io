@@ -93,9 +93,9 @@ a:active{
     display: block;
 }
 
-a::first-letter{
+/* a::first-letter{
     font-size: 50px;
-}
+} */
 
 .about1 h1{
     text-align: center;
@@ -118,41 +118,7 @@ h1{
     padding: 2%;
 }
 
-/* .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%; 
-} */
-/* a:hover{
-    cursor: pointer;
-    background-color: rgb(196, 44, 77);
-    border-radius: 10px;
+/* .card-body:hover{
+    font-weight: bold;
 } */
 
-/* ABOUT */
-
-/* body {
-    height: 100vh;
-    margin: 0;
-    display: grid;
-    gap: 20px;
-    place-content: center;
-} */
-  /* h3 {
-    font-family: system-ui, sans-serif;
-    font-size: 3rem;
-    margin:0;
-    cursor: pointer;
-    padding: 0 .07em;
-  }
-
-
-
-.content{
-    font-family: 'Explora', cursive;
-    text-align: left;
-    padding-right: 50%;
-    padding-top: 7%;
-    padding-left: 15%;
-} */

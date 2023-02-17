@@ -22,12 +22,13 @@ input, input[type="text"], input[type="search"], isindex, textarea, button {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
+	color: #000;
 }
 
 img, a {
 	border:0px;
 	outline:none;
-	color:#3a6cae;
+	/* color:#3a6cae; */
 	text-decoration:none;
 }
 img, a:hover {
