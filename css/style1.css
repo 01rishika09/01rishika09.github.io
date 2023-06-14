@@ -150,7 +150,7 @@ img {
     width: 35px;
 }
 
-.skill-box:hover .img{
+.skill-box:hover .skill-img{
     transform: translateY(-10px);
 }
 .skill-title{
