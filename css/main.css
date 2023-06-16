@@ -102,6 +102,21 @@ a:active {
   flex: 0 0 45%; /* flex grow , flex shrink , flex basis */
 }
 
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+  .img {
+    width: 120%;
+    align-content: center;
+    padding: 2em;
+  }
+  .txt {
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.2rem;
+  }
+}
 .about1 h1 {
   text-align: center;
   font-weight: bold;

@@ -112,6 +112,22 @@ a:active{
     }
 }
 
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+    .img{
+        width: 120%;
+        align-content: center;
+        padding: 2em;
+    }
+    .txt{
+        padding: 0%;
+        margin: 0%;
+        font-size: 1.2rem;
+    }
+}
+
 .about1{
     h1{
     text-align: center;
